@@ -164,9 +164,6 @@ IF %M%==N (GOTO MENU)
 IF %M%==n (GOTO MENU)
 GOTO errorAV
 
-::I did not make the directions for this. I just scripted it.
-::This is where the directions are from, http://www.thunderboltforums.com/forum/htc-thundebolt-hacking-guides/5427-rs-guide-how-return-stock-revolutionary-root.html
-
 :MENU
 set m=NULL
 echo X=MsgBox ("During this program there will be a series of prompts that say [Y/N]. That means type Y for yes or N for no and then hit enter.",0+64+4096,"NOTICE") >support_files\prompts.vbs
@@ -180,8 +177,6 @@ echo                  **********************************************
 echo                  *  Welcome to the Thunderbolt Auto-Unrooter! *
 echo                  *                  Credits:                  *
 echo                  *             Trter10 for tool               *
-echo                  *              Jcase from XDA                *
-echo                  *        Sele from ThunderboltForums         *
 echo                  * //Extra special thanks to AndroidGod for   *
 echo                  * risking his thunderbolt for early tests!\\ *
 echo                  **********************************************
